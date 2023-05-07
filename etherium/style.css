@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+       margin: 0;
+}
+
+body {
+       background-color: hsl(217, 54%, 11%);
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-family: Outfit;
+       font-size: 15px;
+}
+
+.container {
+       min-height: 400px;
+       max-height: 400px;
+       background-color: hsl(216, 50%, 16%);
+       padding: 10px 10px;
+       height: 60vh;
+       display: flex;
+       flex-direction: column;
+       align-items: right;
+       padding: 30px 30px 30px 20px;
+       border-radius: 20px;
+       box-shadow: 0px 40px 80px rgba(0, 0, 0,5);
+
+}
+.moeda {
+       color: white;
+       width: 150px;
+       margin-bottom: 13px;
+       cursor: pointer;
+}
+
+.moeda:hover {
+      color: hsl(178, 100%, 50%);
+}
+
+.container p {
+       margin-left: 10px;
+}
+
+.cube {
+       width:240px;
+       margin-left: 10px;
+       border-radius: 5px;
+       margin-bottom: 13px;
+       cursor: pointer;
+}
+
+.perfil {
+       height: 100vh;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: left;
+       font-size: 12px;
+       color: #aaa;
+}
+
+.avatar {
+       width: 25px;
+       margin-top: 0;
+       border-radius: 100px;
+       border: 1px solid white;
+       margin-right: 10px;
+}
+
+.discrição {
+       width: 190px;
+       font-size: 12px;
+       color: #88a;
+       margin-bottom: 13px;
+
+}
+
+.price {
+
+       height: 100vh;       
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       margin: 0;
+}
+
+.clock {
+       color: #88a;
+       font-size: 13px;
+}
+
+.etherium {
+       color: hsl(178, 100%, 50%);
+}
+
+.et {
+       position: relative;
+       width: 8px;
+       margin-right: 4px;
+       margin-bottom: 1px;
+       top: 2px;
+}
+
+.img-clock {
+       position: relative;
+       width: 15px;
+       margin-right: 4px;
+       top: 3px;
+}
+
+strong {
+       color: white;
+       margin-left: 3px;
+}
+
+hr {
+       margin: 0 0 13px 0;
+       border-color: #ccc;
+}
